@@ -9,7 +9,7 @@ Type=simple
 User=connor
 WorkingDirectory=/home/connor/MinecraftVanilla
 # Start a detached screen session named "mc" running your server
-ExecStart=/usr/bin/screen -DmS mc /usr/bin/java -Xmx12G -Xms12G -jar server.jar nogui
+ExecStart=/usr/bin/screen -DmS mc /usr/bin/java -Xmx32G -Xms32G -jar server.jar nogui
 
 # Graceful stop: send "stop<ENTER>" into the screen session
 ExecStop=/usr/bin/screen -S mc -p 0 -X stuff "stop\015"

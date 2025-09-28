@@ -26,4 +26,4 @@ sudo make install
 
 Then run minecraft command via:
 
-`mcrcon -H 127.0.0.1 -P 25575 -p yourpassword "say Testing"`
+`mcrcon -H 0.0.0.0 -P 25575 -p whoop "say Testing"`

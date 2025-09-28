@@ -1,6 +1,11 @@
-[20:48:49] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[20:48:49] [main/INFO]: Loading 45 mods:
+[20:18:01] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[20:18:01] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[20:18:01] [main/INFO]: Loading 85 mods:
 	- architectury 17.0.8
+	- collective 8.4
+	- cropsloverain 3.1.1
 	- fabric-api 0.133.4+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -47,150 +52,176 @@
 	- fabricloader 0.17.2
 	   \-- mixinextras 0.5.0
 	- fallingtree 1.21.8.3
+	- fixedanvilrepaircost 3.5
+	- forgeconfigapiport 21.8.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
 	- jamlib 1.3.5+1.21.8
 	   \-- blue_endless_jankson 1.2.3
 	- java 21
+	- lithostitched 1.4.11
+	- midnightlib 1.7.5
 	- minecraft 1.21.8
+	- mr_no_creepergrief 1-v1.2.0
+	- plasmovoice 2.1.5
+	- polydecorations 0.8.3+1.21.8
+	   |-- common-protection-api 1.0.0
+	   |-- factorytools 0.7.5+1.21.8
+	   \-- sgui 1.10.2+1.21.8
+	- polydex 1.6.0+1.21.6
+	   |-- fabric-permissions-api-v0 0.4.0
+	   |-- placeholder-api 2.7.0+1.21.6
+	   |-- player-data-api 0.8.0+1.21.6
+	   |-- predicate-api 0.6.0+1.21.2
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- polyfactory 0.8.2+1.21.8
+	   |-- common-protection-api 1.0.0
+	   |-- factorytools 0.7.5+1.21.8
+	   |-- graphlib 2.0.3-beta.1+1.21.5
+	   |    |-- codextra 2.0.0+1.21
+	   |    \-- common_events 1.0.0+1.21
+	   |-- map-canvas-api 0.5.1+1.21.5
+	   |-- sgui 1.10.2+1.21.8
+	   \-- sidebar-api 0.5.1+1.21.1
+	- polymer-bundled 0.13.13+1.21.8
+	   |-- polymer-autohost 0.13.13+1.21.8
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.13.13+1.21.8
+	   |-- polymer-common 0.13.13+1.21.8
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-core 0.13.13+1.21.8
+	   |    |-- polymer-networking 0.13.13+1.21.8
+	   |    |    \-- polymer-common 0.13.13+1.21.8
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.13.13+1.21.8
+	   |-- polymer-resource-pack 0.13.13+1.21.8
+	   |    \-- polymer-common 0.13.13+1.21.8
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-resource-pack-extras 0.13.13+1.21.8
+	   |-- polymer-sound-patcher 0.13.13+1.21.8
+	   \-- polymer-virtual-entity 0.13.13+1.21.8
+	        \-- polymer-common 0.13.13+1.21.8
+	             \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
 	- rightclickharvest 4.6.0+1.21.8
-[20:48:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/connor/MinecraftVanilla/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:48:49] [main/INFO]: Compatibility level set to JAVA_16
-[20:48:49] [main/INFO]: Compatibility level set to JAVA_21
-[20:48:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[20:48:54] [main/INFO]: Initializing JamLib on Fabric
-[20:48:54] [main/INFO]: Updated config file at /home/connor/MinecraftVanilla/config/rightclickharvest.json5
-[20:48:54] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[20:48:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:48:56] [main/INFO]: Loaded 1407 recipes
-[20:48:56] [main/INFO]: Loaded 1520 advancements
-[20:48:56] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.283 ms
-[20:48:56] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:48:56] [Server thread/INFO]: Loading properties
-[20:48:56] [Server thread/INFO]: Default game type: SURVIVAL
-[20:48:56] [Server thread/INFO]: Generating keypair
-[20:48:56] [Server thread/INFO]: Starting Minecraft server on *:4901
-[20:48:56] [Server thread/INFO]: Using epoll channel type
-[20:48:56] [Server thread/INFO]: Preparing level "world"
-[20:48:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:48:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[20:48:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[20:48:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[20:48:58] [Server thread/INFO]: Time elapsed: 1346 ms
-[20:48:58] [Server thread/INFO]: Done (1.713s)! For help, type "help"
-[20:48:58] [Server thread/INFO]: Stopping the server
-[20:48:58] [Server thread/INFO]: Stopping server
-[20:48:58] [Server thread/INFO]: Saving players
-[20:48:58] [Server thread/INFO]: Saving worlds
-[20:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-tions-api-v1 5.0.25+98e6d6db2c
-	   |-- fabric-resource-loader-v0 3.1.12+020423442c
-	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
-	   |-- fabric-screen-handler-api-v1 1.3.138+946bf4c32c
-	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
-	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
-	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
-	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
-	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
-	- fabricloader 0.17.2
-	   \-- mixinextras 0.5.0
-	- fallingtree 1.21.8.3
-	- jamlib 1.3.5+1.21.8
-	   \-- blue_endless_jankson 1.2.3
-	- java 21
-	- minecraft 1.21.8
-	- rightclickharvest 4.6.0+1.21.8
-[20:48:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/connor/MinecraftVanilla/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:48:55] [main/INFO]: Compatibility level set to JAVA_16
-[20:48:55] [main/INFO]: Compatibility level set to JAVA_21
-[20:48:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[20:49:01] [main/INFO]: Initializing JamLib on Fabric
-[20:49:01] [main/INFO]: Updated config file at /home/connor/MinecraftVanilla/config/rightclickharvest.json5
-[20:49:01] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[20:49:01] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:49:02] [main/INFO]: Loaded 1407 recipes
-[20:49:02] [main/INFO]: Loaded 1520 advancements
-[20:49:02] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 978.3 μs
-[20:49:02] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:49:02] [Server thread/INFO]: Loading properties
-[20:49:02] [Server thread/INFO]: Default game type: SURVIVAL
-[20:49:02] [Server thread/INFO]: Generating keypair
-[20:49:02] [Server thread/INFO]: Starting Minecraft server on *:4901
-[20:49:02] [Server thread/INFO]: Using epoll channel type
-[20:49:02] [Server thread/INFO]: Preparing level "world"
-[20:49:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:49:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:49:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:49:03] [Server thread/INFO]: Time elapsed: 939 ms
-[20:49:03] [Server thread/INFO]: Done (1.193s)! For help, type "help"
-[20:49:06] [User Authenticator #1/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
-[20:49:07] [Server thread/INFO]: Corniidog[/192.168.50.51:52984] logged in with entity id 14 at (-160.1881280248542, 56.0, 57.57978996508935)
-[20:49:07] [Server thread/INFO]: Corniidog joined the game
-[20:49:08] [User Authenticator #2/INFO]: UUID of player PockiiDog is f0f43bd9-77ae-4623-ad33-7cc3521fe961
-[20:49:08] [Server thread/INFO]: PockiiDog[/99.230.242.146:65278] logged in with entity id 401 at (-146.94878995176316, 57.0, 43.389517732874125)
-[20:49:08] [Server thread/INFO]: PockiiDog joined the game
-[20:49:09] [User Authenticator #3/INFO]: UUID of player nostalgicB33 is 8d06aa00-6980-4120-8150-c9cdb476a14d
-[20:49:10] [Server thread/INFO]: nostalgicB33[/76.183.221.19:50373] logged in with entity id 411 at (-410.271240234375, 62.11076431274413, 251.29345703125)
-[20:49:10] [Server thread/INFO]: nostalgicB33 joined the game
-[20:54:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:54:09] [Server thread/INFO]: gamerule<--[HERE]
-[20:54:14] [Server thread/INFO]: /gamerule allowFireTicksAwayFromPlayer [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule announceAdvancements [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule blockExplosionDropDecay [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule commandBlockOutput [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule commandModificationBlockLimit [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule disableElytraMovementCheck [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule disablePlayerMovementCheck [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule disableRaids [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doDaylightCycle [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doEntityDrops [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doFireTick [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doImmediateRespawn [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doInsomnia [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doLimitedCrafting [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doMobLoot [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doMobSpawning [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doPatrolSpawning [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doTileDrops [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doTraderSpawning [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doVinesSpread [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doWardenSpawning [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule doWeatherCycle [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule drowningDamage [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule enderPearlsVanishOnDeath [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule fallDamage [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule fireDamage [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule forgiveDeadPlayers [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule freezeDamage [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule globalSoundEvents [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule keepInventory [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule lavaSourceConversion [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule locatorBar [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule logAdminCommands [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule maxCommandChainLength [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule maxCommandForkCount [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule maxEntityCramming [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule mobExplosionDropDecay [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule mobGriefing [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule naturalRegeneration [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule playersNetherPortalCreativeDelay [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule playersNetherPortalDefaultDelay [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule playersSleepingPercentage [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule projectilesCanBreakBlocks [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule randomTickSpeed [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule reducedDebugInfo [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule sendCommandFeedback [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule showDeathMessages [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule snowAccumulationHeight [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule spawnChunkRadius [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule spawnRadius [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule spectatorsGenerateChunks [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule tntExplodes [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule tntExplosionDropDecay [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule universalAnger [<value>]
-[20:54:14] [Server thread/INFO]: /gamerule waterSourceConversion [<value>]
-[21:03:42] [Server thread/INFO]: Gamerule mobGriefing is now set to: false
+	- wildfire_gender 4.3.4+1.21.7
+[20:18:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/connor/MinecraftVanilla/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:18:01] [main/INFO]: Compatibility level set to JAVA_16
+[20:18:01] [main/INFO]: Compatibility level set to JAVA_21
+[20:18:01] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:18:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:18:07] [main/INFO]: Loading Collective version 8.4.
+[20:18:07] [main/INFO]: Initializing Common Events 1.0.0+1.21...
+[20:18:07] [main/INFO]: [Common Events] Finding mods to scan...
+[20:18:07] [main/INFO]: [Common Events] Scanning 0 mods...
+[20:18:07] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 19ms.
+[20:18:07] [main/INFO]: Initializing GraphLib...
+[20:18:07] [main/INFO]: GraphLib Initialized.
+[20:18:07] [main/INFO]: Initializing JamLib on Fabric
+[20:18:11] [main/INFO]: Updated config file at /home/connor/MinecraftVanilla/config/rightclickharvest.json5
+[20:18:11] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[20:18:12] [main/WARN]: Failed to parse resource pack prompt 'Required For Server-Sided Plugins'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at knot/com.google.gson.internal.Streams.parse(Streams.java:58) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.JsonParser.parseReader(JsonParser.java:146) ~[gson-2.11.0.jar:?]
+	at knot/net.minecraft.class_11341.method_71359(class_11341.java:31) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_11341.method_71360(class_11341.java:47) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_43661(class_3806.java:155) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_43660(class_3806.java:189) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.<init>(class_3806.java:127) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3806.method_16714(class_3806.java:143) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3807.<init>(class_3807.java:12) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:117) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [server.jar:1.1.0]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at knot/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1754) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1550) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:676) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.stream.JsonReader.peek(JsonReader.java:507) ~[gson-2.11.0.jar:?]
+	at knot/com.google.gson.internal.Streams.parse(Streams.java:44) ~[gson-2.11.0.jar:?]
+	... 14 more
+[20:18:12] [main/WARN]: resource-pack-id missing, using default of 8ecaf208-64f6-3b19-ae32-015a0f4b3104
+[20:18:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:18:12] [main/WARN]: Missing data pack ctov
+[20:18:12] [main/WARN]: Missing data pack repurposed_structures
+[20:18:13] [main/INFO]: Loaded 2398 recipes
+[20:18:13] [main/INFO]: Loaded 1931 advancements
+[20:18:13] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[20:18:13] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
+[20:18:13] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 914.0 μs
+[20:18:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[20:18:13] [Server thread/INFO]: Loading properties
+[20:18:13] [Server thread/INFO]: Default game type: SURVIVAL
+[20:18:13] [Server thread/INFO]: Generating keypair
+[20:18:13] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:4901
+[20:18:13] [Server thread/INFO]: Using epoll channel type
+[20:18:13] [Server thread/INFO]: Preparing level "world"
+[20:18:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:18:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:18:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:18:14] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[20:18:14] [Server thread/INFO]: Time elapsed: 1070 ms
+[20:18:14] [Server thread/INFO]: Done (1.341s)! For help, type "help"
+[20:18:14] [Server thread/INFO]: Starting remote control listener
+[20:18:14] [Server thread/INFO]: Thread RCON Listener started
+[20:18:14] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[20:18:15] [Server thread/INFO]: UDP server is started on /[0:0:0:0:0:0:0:0]:4901
+[20:18:15] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[20:18:16] [Server thread/INFO]: [Polydex] Done! It took 1309 ms
+[20:18:16] [User Authenticator #1/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:18:18] [Server thread/WARN]: Ignored advancement 'repurposed_structures:root' in progress file ./world/advancements/9be01680-ba1f-4208-967a-a22fbaa48e8e.json - it doesn't exist anymore?
+[20:18:18] [Server thread/INFO]: Corniidog[/192.168.50.51:49532] logged in with entity id 16 at (-159.87330308479793, 56.0, 54.87827557498733)
+[20:18:18] [Server thread/INFO]: Corniidog joined the game
+[20:18:25] [Server thread/INFO]: Corniidog lost connection: Disconnected
+[20:18:25] [Server thread/INFO]: Corniidog left the game
+[20:18:54] [User Authenticator #2/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:18:57] [Server thread/INFO]: Corniidog[/173.219.167.173:58811] logged in with entity id 601 at (-161.0811701955101, 56.0, 55.33441406708109)
+[20:18:57] [Server thread/INFO]: Corniidog joined the game
+[20:19:02] [Server thread/INFO]: Corniidog lost connection: Disconnected
+[20:19:02] [Server thread/INFO]: Corniidog left the game
+[20:19:06] [User Authenticator #3/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:19:08] [Server thread/INFO]: Corniidog[/192.168.50.51:53829] logged in with entity id 1028 at (-157.44987542409996, 57.0, 48.818360746054466)
+[20:19:08] [Server thread/INFO]: Corniidog joined the game
+[20:20:58] [Server thread/INFO]: Corniidog lost connection: Disconnected
+[20:20:58] [Server thread/INFO]: Corniidog left the game
+[20:21:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:22:08] [User Authenticator #4/INFO]: UUID of player nostalgicB33 is 8d06aa00-6980-4120-8150-c9cdb476a14d
+[20:22:16] [Server thread/WARN]: Ignored advancement 'repurposed_structures:root' in progress file ./world/advancements/8d06aa00-6980-4120-8150-c9cdb476a14d.json - it doesn't exist anymore?
+[20:22:16] [Server thread/INFO]: nostalgicB33[/76.183.221.19:61157] logged in with entity id 2016 at (-149.72437698723468, 57.0, 43.16318984137376)
+[20:22:16] [Server thread/INFO]: nostalgicB33 joined the game
+[20:22:46] [User Authenticator #5/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:22:48] [Server thread/INFO]: Corniidog[/192.168.50.51:51127] logged in with entity id 2415 at (-159.25154991574863, 56.0, 54.15599704607914)
+[20:22:48] [Server thread/INFO]: Corniidog joined the game
+[20:24:36] [Server thread/INFO]: nostalgicB33 lost connection: Disconnected
+[20:24:36] [Server thread/INFO]: nostalgicB33 left the game
+[20:26:02] [User Authenticator #6/INFO]: UUID of player nostalgicB33 is 8d06aa00-6980-4120-8150-c9cdb476a14d
+[20:26:05] [Server thread/INFO]: nostalgicB33[/76.183.221.19:61756] logged in with entity id 3122 at (-149.72437698723468, 57.0, 43.16318984137376)
+[20:26:05] [Server thread/INFO]: nostalgicB33 joined the game
+[20:26:06] [Server thread/INFO]: nostalgicB33 lost connection: Disconnected
+[20:26:06] [Server thread/INFO]: nostalgicB33 left the game
+[20:26:23] [User Authenticator #7/INFO]: UUID of player nostalgicB33 is 8d06aa00-6980-4120-8150-c9cdb476a14d
+[20:26:25] [Server thread/INFO]: nostalgicB33[/76.183.221.19:61804] logged in with entity id 3157 at (-149.72437698723468, 57.0, 43.16318984137376)
+[20:26:25] [Server thread/INFO]: nostalgicB33 joined the game
+[20:26:25] [Server thread/INFO]: nostalgicB33 lost connection: Disconnected
+[20:26:25] [Server thread/INFO]: nostalgicB33 left the game
+[20:27:36] [User Authenticator #8/INFO]: UUID of player nostalgicB33 is 8d06aa00-6980-4120-8150-c9cdb476a14d
+[20:27:39] [Server thread/INFO]: nostalgicB33[/76.183.221.19:62243] logged in with entity id 3430 at (-149.72437698723468, 57.0, 43.16318984137376)
+[20:27:39] [Server thread/INFO]: nostalgicB33 joined the game
+[20:27:39] [Server thread/INFO]: nostalgicB33 lost connection: Disconnected
+[20:27:39] [Server thread/INFO]: nostalgicB33 left the game
+[20:27:54] [Server thread/INFO]: Corniidog lost connection: Disconnected
+[20:27:54] [Server thread/INFO]: Corniidog left the game
+[20:27:58] [User Authenticator #9/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:28:00] [Server thread/INFO]: Corniidog[/173.219.167.173:54671] logged in with entity id 3514 at (-156.71895085503746, 57.0, 45.68589868093202)
+[20:28:00] [Server thread/INFO]: Corniidog joined the game
+[20:28:03] [Server thread/INFO]: Corniidog lost connection: Disconnected
+[20:28:03] [Server thread/INFO]: Corniidog left the game
+[20:28:07] [User Authenticator #10/INFO]: UUID of player Corniidog is 9be01680-ba1f-4208-967a-a22fbaa48e8e
+[20:28:08] [Server thread/INFO]: Corniidog[/192.168.50.51:56843] logged in with entity id 3880 at (-156.71895085503746, 57.0, 45.68589868093202)
+[20:28:08] [Server thread/INFO]: Corniidog joined the game
